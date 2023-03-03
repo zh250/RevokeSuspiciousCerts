@@ -57,7 +57,7 @@ def test_site(assertion):
         cert = get_last_issuer_cert_der( conn )
     except socket.error:
         # If cannot connect even without TLS, let it go
-        print "Error connecting to", conn, "but no certificate errors involved."
+        print("Error connecting to", conn, "but no certificate errors involved.")
         return
     except TLSRemoteAlert as alert:
         if not assertion['pkey']:
@@ -77,11 +77,11 @@ def main():
         for assertion in tests:
             test_site(assertion)
     except RuntimeError as e:
-        print "ERROR: Certificate error!"
+        print("ERROR: Certificate error!")
         recv_cert = e.args[1] or '<- Certificate from invalid issuer ->'
         msg = "Expected public key hash of %s for %s, got %s" % \
             (e.args[0]['pkey'], e.args[0]['domain'], recv_cert)
-        print msg
+        print(msg)
         
 
 if __name__ == "__main__":
