@@ -12,7 +12,7 @@ Please visit the link above to download releases instead of using deprecated Dow
 
 
 ### Mention
-**The project is _deprecated_ and under reconstruction. Please wait for a update**
+**The project is _deprecated_ and under reconstruction. Please wait for updates**
 
 ### Usage
 不同平台用法参见以下链接/不同平臺用法參見以下連結：
