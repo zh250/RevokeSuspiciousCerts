@@ -1,4 +1,4 @@
-﻿RevokeChinaCerts
+﻿RevokeSuspiciousCerts
 ==============
 Revoke Suspicious certificates.<br />
 全自动可疑证书吊销工具/全自動可疑憑證撤銷工具<br />
