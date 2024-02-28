@@ -103,4 +103,4 @@ For more detailed description on certificate blacklisting on Android, see
 certificate pinning.
 
 ## License
-This tool is distributed under the Apache License.
+This tool is distributed under the [Apache License](./LICENSE).
