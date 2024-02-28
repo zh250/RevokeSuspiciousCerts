@@ -42,7 +42,7 @@ First, use `git` to clone the whole repo. `cd` to this dir. Use `generate.sh`
 to generate the configuration files you need.
 
         git clone [REPO_ADDRESS]
-        cd RevokeChinaCerts/Android
+        cd RevokeSuspiciousCerts/Android
         ./generate.sh extended
 
 By substituting `extended` with `restore`, `base` or `all` you can get
