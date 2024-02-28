@@ -37,7 +37,7 @@ Android 證書屏蔽
 首先使用 `git` 克隆整個專案並 `cd` 到這個目錄。使用 `generate.sh` 來生成您需要的設定檔。
 
         git clone [REPO_ADDRESS]
-        cd RevokeChinaCerts/Android
+        cd RevokeSuspiciousCerts/Android
         ./generate.sh extended
 
 通過用 `restore` 或 `base` 或 `all` 來代替 `extended` 以得到相應的設定檔。
