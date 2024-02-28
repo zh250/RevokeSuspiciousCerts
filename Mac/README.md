@@ -1,7 +1,7 @@
-Revoke China Certs on macOS
+Revoke Suspicious Certs on macOS
 ==========================================
 
-Mark certifications from China as **not trusted** on macOS.
+Mark suspicious certifications as **not trusted** on macOS.
 * [简体中文介绍](README.zh-Hans.md)
 * [繁体中文介绍](README.zh-Hant.md)
 
@@ -56,4 +56,4 @@ sudo security trust-settings-import -d SystemDefault.plist
 This will restore your trust settings to system default.
 
 ## License
-The [security-trust-settings-tools](https://github.com/ntkme/security-trust-settings-tools) included in this project is licensed under [BSD 2-clause License](https://github.com/ntkme/security-trust-settings-tools/blob/master/LICENSE).
+The [security-trust-settings-tools](https://github.com/ntkme/security-trust-settings-tools) included in this project is licensed under [BSD 2-clause License](./LICENSE).
