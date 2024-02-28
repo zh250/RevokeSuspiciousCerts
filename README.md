@@ -16,11 +16,11 @@ Please visit the link above to download releases instead of using deprecated Dow
 
 ### Usage
 不同平台用法参见以下链接/不同平臺用法參見以下連結：
-* [Shared documents](./Shared/Documents)
-* [Android](./Android)
-* [Linux (experimental)](./Linux)
-* [macOS](./Mac)
-* [Windows](./Windows)
+* [Shared documents (deprecated)](./Shared/Documents)
+* [Android (deprecated)](./Android)
+* [Linux (experimental and deprecated)](./Linux)
+* [macOS (deprecated)](./Mac)
+* [Windows (deprecated)](./Windows)
 
 ### Contributors
 * [Android: Certificates Blacklisting - phoeagon](https://github.com/phoeagon/RevokeChinaCerts/tree/master/Android)
@@ -39,4 +39,4 @@ Please visit the link above to download releases instead of using deprecated Dow
 * Windows: [BlockChinaSoftware - SCFWSE](https://github.com/SCFWSE/BlockChinaSoftware)
 * Windows: [Local-Policy](https://web.archive.org/web/20160318075831/https://bitbucket.org/MartinEden/local-policy) (archive)
 * Windows: [UTLS-Blocker - SCFWSE](https://github.com/SCFWSE/UTLS-Blocker)
-* Windows: [拉黑证书 让你的电脑再也装不上某些软件 附证书大全](https://laod.cn/342.html) | ~~[The original site of this project](https://typcn.com/legacy/blog/posts/ban-digital-cert.html)~~ was defuncted without archive
+* Windows: [拉黑证书 让你的电脑再也装不上某些软件 附证书大全](https://laod.cn/342.html) | ~~[The original site of this project](https://typcn.com/legacy/blog/posts/ban-digital-cert.html)~~ was defunct without archive
