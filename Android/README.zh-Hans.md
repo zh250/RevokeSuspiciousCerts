@@ -72,4 +72,4 @@ Android 中的证书黑名单可能通过 Play Services 进行更新，安装此
 有关 Android 上证书黑名单的更多详细说明，请参阅 [这里](https://nelenkov.blogspot.com/2012/07/certificate-blacklisting-in-jelly-bean.html)。关于证书锚定功能，请参阅 [这里](https://nelenkov.blogspot.com/2012/12/certificate-pinning-in-android-42.html)。
 
 ## 授权
-本工具在 Apache License 下授权。
+本工具在 [Apache License](./LICENSE) 下授权。
