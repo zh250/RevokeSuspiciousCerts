@@ -16,7 +16,7 @@ Please visit the link above to download releases instead of using deprecated Dow
 
 ### Usage
 不同平台用法参见以下链接/不同平臺用法參見以下連結：
-* [Shared documents (deprecated)](./Shared/Documents)
+* [Shared documents](./Shared/Documents)
 * [Android (deprecated)](./Android)
 * [Linux (experimental and deprecated)](./Linux)
 * [macOS (deprecated)](./Mac)
