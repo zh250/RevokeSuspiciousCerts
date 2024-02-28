@@ -1,5 +1,5 @@
-# Revoke China Certs on macOS
-在 macOS 上将来自大中华区的证书标记为 **不可信** 的工具。
+# Revoke Suspicious Certs on macOS
+在 macOS 上将可疑证书标记为 **不可信** 的工具。
 
 ## Usage
 在 macOS 上将证书设置为不可信的步骤：
@@ -52,4 +52,4 @@ sudo security trust-settings-import -d SystemDefault.plist
 这会将您的信任设置恢复到系统默认值。
 
 ## 许可证
-包含在这个项目的 [security-trust-settings-tools](https://github.com/ntkme/security-trust-settings-tools) 工具根据 [BSD 2-clause License](https://github.com/ntkme/security-trust-settings-tools/blob/master/LICENSE) 进行授权。
+包含在这个项目的 [security-trust-settings-tools](https://github.com/ntkme/security-trust-settings-tools) 工具根据 [BSD 2-clause License](./LICENSE) 进行授权。
