@@ -1,4 +1,4 @@
-Revoke-China-Certs on Linux
+Revoke-Suspicious-Certs on Linux
 ==========================================
 
 This tool revokes certain CA certificates for OpenSSL and NSS-based applications
