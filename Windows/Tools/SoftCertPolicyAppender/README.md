@@ -4,8 +4,7 @@ Revoke Chinese certificates.
 
 ## Introduction
 This document explains how to use SoftCertPolicyAppender tool, the tool can add certificates to system force policy.
-* [简体中文介绍](README.zh-Hans.md)
-* [繁體中文介紹](README.zh-Hant.md)
+
 
 ## Usage
 * `SoftCertPolicyAppender.exe <Parameter> <Certificate path>`
