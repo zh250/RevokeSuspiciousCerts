@@ -1,4 +1,4 @@
-﻿RevokeChinaCerts
+﻿RevokeSuspiciousCerts
 ==============
 
 ### Usage
