@@ -3,8 +3,7 @@ Revoke-China-Certs on Linux
 
 This tool revokes certain CA certificates for OpenSSL and NSS-based applications
 on Linux (most notably, Firefox & Chrome).
-* [简体中文介绍](README.zh-Hans.md)
-* [繁體中文介紹](README.zh-Hant.md)
+
 
 ## Introduction
 On Linux there are multiple libraries for SSL/TLS and each may have its own
