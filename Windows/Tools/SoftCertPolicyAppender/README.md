@@ -1,6 +1,6 @@
-﻿RevokeChinaCerts on Windows
+﻿RevokeSuspiciousCerts on Windows
 ==============
-Revoke Chinese certificates.
+Revoke Suspicious certificates.
 
 ## Introduction
 This document explains how to use SoftCertPolicyAppender tool, the tool can add certificates to system force policy.
