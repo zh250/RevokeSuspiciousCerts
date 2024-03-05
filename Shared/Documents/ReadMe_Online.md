@@ -58,7 +58,7 @@ Revoke Suspicious certificates.
 * **iOS**: There are not any documented or public ways to revoke certificates in iOS.
 
 ### About Certificates
-* See [this link](./Shared/Certificates#human-readable-certificates-details) for more details.
+* See [this link](../Certificates/README.md#human-readable-certificates-details) for more details.
 * **Base** list
 
 Name | Authority | Fingerprint
