@@ -3,8 +3,7 @@ Certificates
 
 ## What's here?
 Certificates categorized in three severity level. Each certificate is named with its SHA1 fingerprint, in `.crt` format.
-* [简体中文介绍](README.zh-Hans.md)
-* [繁體中文介紹](README.zh-Hant.md)
+
 
 ### Definition of Severity Level
 * High
@@ -14,7 +13,7 @@ Certificates categorized in three severity level. Each certificate is named with
   * Self-signed CA certificates that have high risk of being used for attack.
   * CA certificates that have low risk of being used for attack.
 * Low
-  * All other certificates from the Greater China
+  * All other certificates from some suspicious organizations
 
 ### Human Readable Certificates Details
 * [Severity.High.md](Severity.High.md)
