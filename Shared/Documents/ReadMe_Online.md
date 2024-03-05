@@ -1,6 +1,6 @@
-﻿RevokeChinaCerts
+﻿RevokeSuspiciousCerts
 ==============
-Revoke Chinese certificates.
+Revoke Suspicious certificates.
 
 ### Usage
 * Download all project files.
@@ -13,8 +13,8 @@ Revoke Chinese certificates.
 * **Base** is base version of RevokeChinaCerts, revoke some root/intermediate/fake certificates.
 * **Extended** is extended version of RevokeChinaCerts, revoke all root/intermediate/fake certificates.
   * **This is the suggestion.**
-* **All** is all version of RevokeChinaCerts, revoke all certificates from greater China.
-  * **This is the experiment version.**
+* **All** is all version of RevokeSuspiciousCerts, revoke all certificates from suspicious organizations.
+  * **This is the experimental version with risks.**
 * **Restore** is restore batch, restore all revoked certificates.
 
 ### Special
@@ -47,7 +47,7 @@ Revoke Chinese certificates.
   * Open `Utilities` - `Keychain Access` - `Keychains` - `System Roots`
   * Open the certificate and select all `Not trusted`.
   * Clear all browser(s) data and DNS cache of system, and restart network interface(s).
-* **Firefox**
+* **Firefox (Linux and Windows only)**
   * Open `Tools` - `Options` - `Advanced` - `Certificates` - `View Certificates`
   * Open the certificate and select to disable.
   * Clear all browser(s) data and DNS cache of system, and restart network interface(s).
@@ -58,7 +58,7 @@ Revoke Chinese certificates.
 * **iOS**: There are not any documented or public ways to revoke certificates in iOS.
 
 ### About Certificates
-* See [this link](https://github.com/chengr28/RevokeChinaCerts/tree/master/Shared/Certificates#human-readable-certificates-details) for more details.
+* See [this link](./Shared/Certificates#human-readable-certificates-details) for more details.
 * **Base** list
 
 Name | Authority | Fingerprint
