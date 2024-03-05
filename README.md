@@ -1,21 +1,33 @@
 ﻿RevokeSuspiciousCerts
 ==============
 Revoke Suspicious certificates.<br />
-全自动可疑证书吊销工具/全自動可疑憑證撤銷工具<br />
+
 
 ### Releases
 ~~[![GitHub release](https://img.shields.io/github/release/chengr28/RevokeChinaCerts.svg)](./releases/latest)<br />
-Please visit the link above to download releases instead of using deprecated Download ZIP.<br />
-请使用上面的链接下载，不要使用以前 Download ZIP 的方法/請使用上面的連結下載，不要使用以前 Download ZIP 的方法。~~
+Please visit the link above to download releases instead of using deprecated Download ZIP.<br />~~
 
 **No release till now**
 
 
 ### Mention
+
 **The project is _deprecated_ and under reconstruction. Please wait for updates**
 
+##### TODO
+* [x] Modify some ominous terms in the original repository to benign ones
+* [x] Remove extra documentations (Only English version will be maintained in the future)
+* [ ] Re-verify the compatibility and operability of all scripts on various systems
+* [ ] Fix some outdated and obsolete dependencies and syntax errors in some scripts
+* [ ] Add some Suspicious and malicious CA or EE certifications discovered after suspending maintenance of the original repository
+* [ ] Remove support for Windows XP/2003 and earlier versions
+* [ ] Rewrite scripts for Windows in PowerShell (It is impossible to implement in the short term)
+* [ ] Support revoke certifications in Firefox on macOS
+* [ ] *etc.*
+
+
 ### Usage
-不同平台用法参见以下链接/不同平臺用法參見以下連結：
+
 * [Shared documents](./Shared/Documents)
 * [Android (deprecated)](./Android)
 * [Linux (experimental and deprecated)](./Linux)
