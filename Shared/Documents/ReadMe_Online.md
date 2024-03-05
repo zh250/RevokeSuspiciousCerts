@@ -1,6 +1,6 @@
 ﻿RevokeSuspiciousCerts
 ==============
-Revoke Suspicious certificates.
+Revoke Suspicious Certificates.
 
 ### Usage
 * Download all project files.
