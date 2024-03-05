@@ -1,6 +1,6 @@
-﻿RevokeChinaCerts
+﻿RevokeSuspiciousCerts
 ==============
-Revoke Chinese certificates.
+Revoke Suspicious certificates.
 
 Filename | SHA-3(256)
 --- | ---
