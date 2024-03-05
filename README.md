@@ -21,8 +21,9 @@ Please visit the link above to download releases instead of using deprecated Dow
 * [ ] Fix some outdated and obsolete dependencies and syntax errors in some scripts
 * [ ] Add some Suspicious and malicious CA or EE certifications discovered after suspending maintenance of the original repository
 * [ ] Remove support for Windows XP/2003 and earlier versions
+* [ ] Remove some CodeSigning and Orgnization certifications, and move some Orgnization certifications to Online certifications (for Windows only)
 * [ ] Rewrite scripts for Windows in PowerShell (It is impossible to implement in the short term)
-* [ ] Support revoke certifications in Firefox on macOS
+* [ ] Support revoke certifications in Firefox on macOS (It is impossible to implement in the short term)
 * [ ] *etc.*
 
 
