@@ -1,6 +1,6 @@
-﻿RevokeChinaCerts on Windows
+﻿RevokeSuspiciousCerts on Windows
 ==============
-Revoke Chinese certificates.
+Revoke Suspicious certificates.
 
 ### Introduction
 There are 2 types of batches:
@@ -8,15 +8,14 @@ There are 2 types of batches:
   * Online - Revoke or restore online certificates in system store.
   * Firefox - Revoke or restore online certificates in Firefox NSS.
   * Update - Update or reset online certificates in system store.
-* CodeSigning and Organization: Verifys software publisher and organization certificates.
+* CodeSigning and Organization: Verifies software publisher and organization certificates.
   * CodeSigning - Revoke or restore code signing certificates in system store.
   * Organization - Revoke or restore organization certificates in system store.
 
 ### Usage
-* [Online](https://github.com/chengr28/RevokeChinaCerts/tree/master/Shared/Documents/ReadMe_Online.md)
-* [CodeSigning/Organization](https://github.com/chengr28/RevokeChinaCerts/tree/master/Shared/Documents/ReadMe_CodeSigning_Organization.md)
-* [简体中文介绍](README.zh-Hans.md)
-* [繁體中文介紹](README.zh-Hant.md)
+* [Online](../Shared/Documents/ReadMe_Online.md)
+* [CodeSigning/Organization](../Shared/Documents/ReadMe_CodeSigning_Organization.md)
+
 
 ### Parameter
 Batches can revoke or restore with below parameters:
@@ -33,4 +32,4 @@ Batches can revoke or restore with below parameters:
   * Run `xx.bat * -f` to enable software force policy.
 
 ### License
-GNU General Public License/GNU GPL v2
+[GNU General Public License/GNU GPL v2](./LICENSE)
