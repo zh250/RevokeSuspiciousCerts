@@ -1,6 +1,6 @@
 ﻿RevokeSuspiciousCerts
 ==============
-Revoke Suspicious certificates.<br />
+Revoke Suspicious Certificates<br />
 
 
 ### Releases
