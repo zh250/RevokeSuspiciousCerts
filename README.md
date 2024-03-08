@@ -4,8 +4,6 @@ Revoke Suspicious Certificates<br />
 
 
 ### Releases
-~~[![GitHub release](https://img.shields.io/github/release/chengr28/RevokeChinaCerts.svg)](./releases/latest)<br />
-Please visit the link above to download releases instead of using deprecated Download ZIP.<br />~~
 
 **No release till now**
 
