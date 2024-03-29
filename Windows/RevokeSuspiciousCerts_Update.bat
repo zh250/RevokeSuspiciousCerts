@@ -1,7 +1,7 @@
-:: RevokeChinaCerts Update batch
-:: Revoke Chinese certificates.
+:: RevokeSuspiciousCerts Update batch
+:: Revoke Suspicious certificates.
 :: 
-:: Contributions: Chengr28
+:: Contributions: Chengr28, zh250
 :: 
 
 
@@ -38,7 +38,7 @@ IF NOT "%Command%" == "" (
 
 
 :: Choice
-ECHO RevokeChinaCerts Update batch
+ECHO RevokeSuspiciousCerts Update batch
 ECHO.
 ECHO 1: Update CRL/Certificate Revocation List
 ECHO 2: Update CTL/Certificate Trust List(Windows Update)
@@ -98,7 +98,7 @@ GOTO END
 COLOR
 CD /D "%~dp0"
 ECHO.
-ECHO RevokeChinaCerts Update batch
+ECHO RevokeSuspiciousCerts Update batch
 ECHO Done, please confirm the messages on screen.
 ECHO.
 PAUSE
