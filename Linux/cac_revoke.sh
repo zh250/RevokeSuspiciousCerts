@@ -78,8 +78,10 @@ checksum_audit() {
   if [ -n "$(join -j 2 $pemsum_sorted certsum_$1_sorted.txt)" ]; then
     echo 'Warn! Questionable certificates still exist on your system.'
     echo
+    echo 'Original auother Chengr28 gave up the repository, so everything is under reconstruction'
     echo 'Please report a bug at:'
-    echo 'https://github.com/chengr28/RevokeChinaCerts/issues'
+    echo 'https://github.com/zh250/RevokeSuspiciousCerts/issues'
+    echo 'But I cannot make sure I can solve them in time'
     echo
     echo 'Please attach the following output:'
     echo
