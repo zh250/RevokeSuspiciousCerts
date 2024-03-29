@@ -1,7 +1,7 @@
-:: RevokeChinaCerts Online batch
-:: Revoke Chinese certificates.
+:: RevokeSuspiciousCerts Online batch
+:: Revoke Suspicious certificates.
 :: 
-:: Contributions: JayXon, Hugo Chan, ntkme, Chengr28
+:: Contributions: JayXon, Hugo Chan, ntkme, Chengr28, zh250
 :: 
 
 
@@ -39,7 +39,7 @@ IF NOT "%Command%" == "" (
 
 
 :: Choice
-ECHO RevokeChinaCerts Online batch
+ECHO RevokeSuspiciousCerts Online batch
 ECHO.
 ECHO 1: Base version
 ECHO 2: Extended version
@@ -117,7 +117,7 @@ GOTO END
 COLOR
 CD /D "%~dp0"
 ECHO.
-ECHO RevokeChinaCerts Online batch
+ECHO RevokeSuspiciousCerts Online batch
 ECHO Done, please confirm the messages on screen.
 ECHO.
 PAUSE
