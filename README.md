@@ -18,9 +18,10 @@ Revoke Suspicious Certificates<br />
 * [ ] Re-verify the compatibility and operability of all scripts on various systems
 * [ ] Fix some outdated and obsolete dependencies and syntax errors in some scripts
 * [ ] Modify some outdated and obsolete certs in the latest default NSS, Linux and macOS certs list
-* [ ] Add some suspicious and malicious CA or EE certifications discovered after suspending maintenance of the original repository
+* [ ] Add some suspicious/malicious CA or EE certificates discovered after suspending maintenance of the original repository
 * [ ] Remove support for Windows XP/2003 and earlier versions
-* [ ] Remove some CodeSigning and Orgnization certifications, and move some Orgnization certifications to Online certifications (for Windows only)
+* [ ] Archive CodeSigning and Orgnization certificates and their revoke functions (for Windows only)
+* [ ] Move some Orgnization certificaties to Online certificaties (for Windows only)
 * [ ] Support revoking certifications in Firefox on macOS (It is impossible to implement in the short term)
 * [ ] *etc.*
 
