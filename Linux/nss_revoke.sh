@@ -7,7 +7,7 @@ CERTS=$2
 echo "Resetting CA set"
 RESETS=``
 
-certutil -d sql:${DBPATH} -L | grep -oP "NSS Certificate DB:revoke-china-certs:[^\s]+" | \
+certutil -d sql:${DBPATH} -L | grep -oP "NSS Certificate DB:revoke-suspicious-certs:[^\s]+" | \
 while read CERT;do
     certutil -d sql:${DBPATH} -D -n "${CERT}"
 done
@@ -16,7 +16,7 @@ echo "Revoking CAs in $DBPATH/cert{8,9}.db"
 
 for CERT in $CERTS;do
     # p,p,p: prohibit all use
-    certutil -d sql:${DBPATH} -A -n "revoke-china-certs:${CERT}" -t p,p,p -i ${CERT}
+    certutil -d sql:${DBPATH} -A -n "revoke-suspicious-certs:${CERT}" -t p,p,p -i ${CERT}
 done
 
 echo "Done"
