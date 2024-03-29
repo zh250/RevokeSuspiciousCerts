@@ -1,7 +1,7 @@
-:: RevokeChinaCerts Online batch Firefox version
-:: Revoke Chinese certificates.
+:: RevokeSuspiciousCerts Online batch Firefox version
+:: Revoke Suspicious certificates.
 :: 
-:: Contributions: Chengr28
+:: Contributions: Chengr28, zh250
 :: 
 
 
@@ -22,7 +22,7 @@ SET Portable=1
 SET CommandType=%~1
 SET CommandPath=%~2
 IF "%CommandType%" == "" (
-	ECHO RevokeChinaCerts Online batch Firefox version
+	ECHO RevokeSuspiciousCerts Online batch Firefox version
 	ECHO.
 	ECHO Revoke certificates in installed Firefox profile? [Y/N]
 	ECHO When you select N:
@@ -90,7 +90,7 @@ IF NOT "%CommandType%" == "" (
 
 :: Choice and scan all Firefox profile directories
 CLS
-ECHO RevokeChinaCerts Online batch Firefox version
+ECHO RevokeSuspiciousCerts Online batch Firefox version
 ECHO.
 ECHO 1: Base version
 ECHO 2: Extended version
@@ -170,7 +170,7 @@ IF %Portable% EQU 0 (
 	DEL /F "%~dp0ProfileList.txt"
 )
 ECHO.
-ECHO RevokeChinaCerts Online batch Firefox version
+ECHO RevokeSuspiciousCerts Online batch Firefox version
 ECHO Done, please confirm the messages on screen.
 ECHO.
 PAUSE
