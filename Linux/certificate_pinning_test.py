@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 import ssl
 import M2Crypto #be careful, the library M2Crypto cannot be installed successfully, waiting for solving
 import hashlib
