@@ -1,7 +1,7 @@
-:: RevokeChinaCerts CodeSigning batch
-:: Revoke Chinese certificates.
+:: RevokeSuspiciousCerts CodeSigning batch
+:: Revoke Suspicious certificates.
 :: 
-:: Contributions: Hugo Chan, ntkme, Chengr28
+:: Contributions: Hugo Chan, ntkme, Chengr28, zh250
 :: 
 
 
@@ -45,7 +45,7 @@ IF NOT "%CommandType%" == "" (
 
 
 :: Choice
-ECHO RevokeChinaCerts CodeSigning batch
+ECHO RevokeSuspiciousCerts CodeSigning batch
 ECHO.
 ECHO Do you want to SET force certificate policy? [Y/N]
 ECHO Setting force require:
@@ -121,7 +121,7 @@ GOTO END
 COLOR
 CD /D "%~dp0"
 ECHO.
-ECHO RevokeChinaCerts CodeSigning batch
+ECHO RevokeSuspiciousCerts CodeSigning batch
 ECHO Done, please confirm the messages on screen.
 ECHO.
 PAUSE
