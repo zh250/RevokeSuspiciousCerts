@@ -1,11 +1,9 @@
-﻿RevokeChinaCerts on Windows
+﻿RevokeSuspiciousCerts on Windows
 ==============
-Revoke Chinese certificates.
+Revoke Suspicious certificates.
 
 ### Introduction
 This document explains how to update CodeSigning and Organization certificate list.
-* [简体中文介绍](README.zh-Hans.md)
-* [繁體中文介紹](README.zh-Hant.md)
 
 ### How do I add certificate to the list?
 * Make sure the certificate is Base64 encoding.
