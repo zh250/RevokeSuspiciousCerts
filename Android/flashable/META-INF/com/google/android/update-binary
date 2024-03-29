@@ -10,7 +10,7 @@ ui_print() {
 
 
 ui_print "*********************"
-ui_print "RevokeChinaCerts"
+ui_print "RevokeSuspiciousCerts"
 ui_print "*********************"
 
 ui_print "- Mounting /system, /data and rootfs"
