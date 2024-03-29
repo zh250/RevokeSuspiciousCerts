@@ -24,11 +24,11 @@ First you need to have packages installed to provide `certutil`. On Ubuntu it wo
 sudo apt-get install libnss3-tools
 ```
 
-Then, use the `revoke-china-certs.sh` to do the revocation.
+Then, use the `revoke-suspicious-certs.sh` to do the revocation.
 For most NSS-based applications including Chrome, it would be:
 
 ``` sh
-./revoke-china-certs.sh extended $HOME/.pki/nssdb
+./revoke-suspicious-certs.sh extended $HOME/.pki/nssdb
 ```
 
 to revoke trust of CAs within the *extended* set. Change `extended` to `all` or `base`
@@ -39,7 +39,7 @@ than per Linux user for Chrome), you need to do this for every profile under `~/
 
 ``` sh
 for profile in `ls -d ~/.mozilla/firefox/*.default`; do
-  ./revoke-china-certs.sh extended "$profile"
+  ./revoke-suspicious-certs.sh extended "$profile"
 done
 ```
 
@@ -47,9 +47,11 @@ done
 Certificate pinning test is implemented in `certificate_pinning_test.py`.
 Use it as:
 
-``` sh
+``` python
 ./certificate_pinning_test.py
+# Mention: the script cannot work well because M2Crypto cannot be installed successfully, wait for solving
 ```
+
 
 This should reveal any HTTPS Man-In-The-Middle devices that may eavesdrop
 your connection (with Google), including but not limited to a transparent
@@ -83,7 +85,7 @@ Most NSS-based applications use `~/.pki/nssdb`, including but not limited to:
   also not enabled by default. Though OpenSuse will install certificates into
   `/etc/pki/nssdb` provided that `mozilla-nss-sysinit` is installed. Thus if
   you worry about it, you can check its emptiness with `certutil -d sql:${DBPATH} -L`
-  yourself. And revoke certificates in it via `revoke-china-certs.sh` if necessary.
+  yourself. And revoke certificates in it via `revoke-suspicious-certs.sh` if necessary.
 
 
 ## Revoke CA certificates for OpenSSL.
