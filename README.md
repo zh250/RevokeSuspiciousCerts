@@ -5,12 +5,14 @@ Revoke Suspicious Certificates<br />
 
 ### Releases
 
-**No release till now**
+https://github.com/zh250/RevokeSuspiciousCerts/releases/latest<br />
+Please visit the link above to download releases<br />
+Now it is a pre-release version (just revival)
 
 
 ### Mention
 
-**The project is _deprecated_ and under reconstruction. Please wait for updates**
+**The project is _deprecated_ and under reconstruction. Please wait for more updates**
 
 ##### TODO
 * [x] Modify some ominous terms in the original repository to benign ones
