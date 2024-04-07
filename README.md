@@ -6,7 +6,7 @@ Revoke Suspicious Certificates<br />
 ### Releases
 
 https://github.com/zh250/RevokeSuspiciousCerts/releases/latest<br />
-Please visit the link above to download releases<br />
+Please visit the link above to download the latest releases<br />
 Now it is a pre-release version (just revival)
 
 
