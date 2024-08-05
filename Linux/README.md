@@ -35,13 +35,18 @@ to revoke trust of CAs within the *extended* set. Change `extended` to `all` or 
 or `restore` to revoke other sets of certs.
 
 Since Firefox maintains different certificate store for different browser profile (rather
-than per Linux user for Chrome), you need to do this for every profile under `~/.mozilla/firefox`.
+than per Linux user for Chrome), you need to do this for every profile under `~/.mozilla/firefox*`.
+In addition, to execute the following command, system may require you execute as root 
+otherwise it will prompt permission denied, And also if you execute bash as sudo, the path 
+`~/.mozilla/firefox*/*.default` should specify as absolute path `/home/XXX/.mozilla/firefox*/*.default`
+where the `XXX` here must be replaced by your username
 
 ``` sh
-for profile in `ls -d ~/.mozilla/firefox/*.default`; do
+for profile in `ls -d ~/.mozilla/firefox*/*.default`; do
   ./revoke-suspicious-certs.sh extended "$profile"
 done
 ```
+
 
 ### Certificate Pinning Test
 Certificate pinning test is implemented in `certificate_pinning_test.py`.
