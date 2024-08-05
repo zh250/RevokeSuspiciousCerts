@@ -37,9 +37,9 @@ or `restore` to revoke other sets of certs.
 Since Firefox maintains different certificate store for different browser profile (rather
 than per Linux user for Chrome), you need to do this for every profile under `~/.mozilla/firefox*`.
 In addition, to execute the following command, system may require you execute as root 
-otherwise it will prompt permission denied, And also if you execute bash as sudo, the path 
+otherwise it will prompt permission denied. And also if you execute bash as sudo, the path 
 `~/.mozilla/firefox*/*.default` should specify as absolute path `/home/XXX/.mozilla/firefox*/*.default`
-where the `XXX` here must be replaced by your username
+where the `XXX` here must be replaced by your username of the user
 
 ``` sh
 for profile in `ls -d ~/.mozilla/firefox*/*.default`; do
@@ -55,13 +55,14 @@ Use it as:
 ``` python
 ./certificate_pinning_test.py
 ```
-Mention: the script cannot work well because M2Crypto cannot be installed successfully
+Mention: the script cannot work because [M2Crypto](https://pypi.org/project/M2Crypto/) cannot be installed successfully
 
-Further mention: for newer versions of debian-based Linux, such packages should be installed
-via `sudo apt install python3-XYZ` rather than 'pip3 install XYZ'. However, the package
-python3-M2Crypto does not exist, Although M2Cypto has pip package yet, traditional
-installation method is deprecated, and `pip install XYZ` is more suitable for venv
+Further mention: for newer versions of Debian-based Linux, modules should be installed
+via `sudo apt install python3-XYZ` rather than `pip3 install XYZ`. However, the module
+*python3-M2Crypto* does not exist, Although M2Cypto has pip module yet, traditional
+installation method is deprecated, and `pip install XYZ` is more suitable for `venv`
 
+---
 
 This should reveal any HTTPS Man-In-The-Middle devices that may eavesdrop
 your connection (with Google), including but not limited to a transparent
@@ -83,12 +84,12 @@ Most NSS-based applications use `~/.pki/nssdb`, including but not limited to:
 - Wine
 
 #### Exceptions
-- Firefox/Iceweasel `~/.mozilla/firefox/*.default/`
+- Firefox/Iceweasel `~/.mozilla/firefox*/*.default/`
 - Thunderbird/Icedove `~/.thunderbird/*.default` 
 
 ### Notes
-- Deselecting a CA by `dpkg-reconfigure ca-certificates` does NOT affect any NSS-based applications.
-- There is a global database at `/etc/pki/nssdb`. On Debian/Ubuntu, this
+- Deselecting a CA by `sudo dpkg-reconfigure ca-certificates` does NOT affect any NSS-based applications.
+- There is a global database at `/etc/pki/nssdb`. On Debian/Ubuntu/Linux Mint, this
   global database is installed by `libnss3-nssdb`. And it actually links to
   `/var/lib/nssdb/`, which is an empty database. And since most NSS based applications only read it, so it's safe to assume that it is empty. On Arch
   it is not created by default, too. On Fedora `/etc/pki/nssdb` exists but is
