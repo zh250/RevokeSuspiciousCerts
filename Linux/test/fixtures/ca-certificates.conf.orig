@@ -26,13 +26,13 @@ mozilla/Atos_TrustedRoot_2011.crt
 mozilla/Atos_TrustedRoot_Root_CA_ECC_TLS_2021.crt
 mozilla/Atos_TrustedRoot_Root_CA_RSA_TLS_2021.crt
 mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
-!mozilla/BJCA_Global_Root_CA1.crt
-!mozilla/BJCA_Global_Root_CA2.crt
+mozilla/BJCA_Global_Root_CA1.crt
+mozilla/BJCA_Global_Root_CA2.crt
 mozilla/Baltimore_CyberTrust_Root.crt
 mozilla/Buypass_Class_2_Root_CA.crt
 mozilla/Buypass_Class_3_Root_CA.crt
 mozilla/CA_Disig_Root_R2.crt
-!mozilla/CFCA_EV_ROOT.crt
+mozilla/CFCA_EV_ROOT.crt
 mozilla/COMODO_Certification_Authority.crt
 mozilla/COMODO_ECC_Certification_Authority.crt
 mozilla/COMODO_RSA_Certification_Authority.crt
@@ -68,7 +68,7 @@ mozilla/Entrust_Root_Certification_Authority.crt
 mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
 mozilla/Entrust_Root_Certification_Authority_-_G2.crt
 mozilla/Entrust_Root_Certification_Authority_-_G4.crt
-!mozilla/GDCA_TrustAUTH_R5_ROOT.crt
+mozilla/GDCA_TrustAUTH_R5_ROOT.crt
 mozilla/GLOBALTRUST_2020.crt
 mozilla/GTS_Root_R1.crt
 mozilla/GTS_Root_R2.crt
@@ -88,7 +88,7 @@ mozilla/HARICA_TLS_RSA_Root_CA_2021.crt
 mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt
 mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt
 mozilla/HiPKI_Root_CA_-_G1.crt
-!mozilla/Hongkong_Post_Root_CA_3.crt
+mozilla/Hongkong_Post_Root_CA_3.crt
 mozilla/ISRG_Root_X1.crt
 mozilla/ISRG_Root_X2.crt
 mozilla/IdenTrust_Commercial_Root_CA_1.crt
@@ -140,8 +140,8 @@ mozilla/Trustwave_Global_Certification_Authority.crt
 mozilla/Trustwave_Global_ECC_P256_Certification_Authority.crt
 mozilla/Trustwave_Global_ECC_P384_Certification_Authority.crt
 mozilla/TunTrust_Root_CA.crt
-!mozilla/UCA_Extended_Validation_Root.crt
-!mozilla/UCA_Global_G2_Root.crt
+mozilla/UCA_Extended_Validation_Root.crt
+mozilla/UCA_Global_G2_Root.crt
 mozilla/USERTrust_ECC_Certification_Authority.crt
 mozilla/USERTrust_RSA_Certification_Authority.crt
 mozilla/XRamp_Global_CA_Root.crt
