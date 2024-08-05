@@ -54,14 +54,13 @@ Use it as:
 
 ``` python
 ./certificate_pinning_test.py
-
-# Mention: the script cannot work well because M2Crypto cannot be installed successfully
-
-# Further mention: for newer versions of debian-based Linux, such packages should be installed
-# via `sudo apt install python3-XYZ` rather than 'pip3 install XYZ'. However, the package
-# python3-M2Crypto does not exist, Although M2Cypto has pip package yet, traditional
-# installation method is deprecated, and `pip install XYZ` is more suitable for venv
 ```
+Mention: the script cannot work well because M2Crypto cannot be installed successfully
+
+Further mention: for newer versions of debian-based Linux, such packages should be installed
+via `sudo apt install python3-XYZ` rather than 'pip3 install XYZ'. However, the package
+python3-M2Crypto does not exist, Although M2Cypto has pip package yet, traditional
+installation method is deprecated, and `pip install XYZ` is more suitable for venv
 
 
 This should reveal any HTTPS Man-In-The-Middle devices that may eavesdrop
