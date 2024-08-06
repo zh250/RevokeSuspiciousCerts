@@ -5,7 +5,7 @@ This tool generates flashable zip to use with custom recovery on an Android 4.1+
 
 **Mention: Android and OEMs have update *Trusted credentials* many times after the tool's
 publishing. However, the tool cannot cover the latest suspicious certificates from all OEMs,
-and some deprecated certificates are not *Trusted credentials* On Android any more**
+and some deprecated certificates are not *Trusted credentials* on Android any more**
 
 ## Introduction
 This utility blacklists CA and EE certificates.
