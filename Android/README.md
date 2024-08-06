@@ -3,6 +3,10 @@ Android Certificates Blacklisting
 
 This tool generates flashable zip to use with custom recovery on an Android 4.1+ device.
 
+**Mention: Android and OEMs have update *Trusted credentials* many times after the tool's
+publishing. However, the tool cannot cover the latest suspicious certificates from all OEMs,
+and some deprecated certificates are not *Trusted credentials* On Android any more**
+
 ## Introduction
 This utility blacklists CA and EE certificates.
 Please make sure all scripts must have execute permission.
@@ -65,21 +69,21 @@ The utility changes configurations under `/data` partition of your Android devic
 which is wiped every time you do a factory reset or flash a factory image.
 
 This utility doesn't remove any certificates under `/system` and should not
-cause any trouble when doing OTAs. Still, this configuration overrides the certs
+cause any trouble when doing OTAs. Instead, this configuration overrides the certs
 installed on your system. (That's to say, if you remove trust of *Wosign* using
-this tool, manually installing the CA cert from *Wosign* *DOES NOT* cause
-the system to see certs issued by Wosign as valid.)
+this tool, manually installing the CA cert from *Wosign* *WILL NOT* make
+the system regard certs issued by Wosign as valid.)
 
 On Android, each application can define its own policy of certificate validation.
 An application may define custom methods to accept only some specific certificates (aka
 pinning, which is also available system-wide), or accept whatever certificate regardless
-of its issuer (e.g., Twidere). Having certs removed with this tool does NOT guarantee that
+of its issuer (e.g., Twidere). Having certs removed with this tool CANNOT guarantee that
 a particular app rejects certificates associated with those.
 
 Blacklisting in Android works as follows. The CA certs are blacklisted by the
 SHA1 checksum of their public keys and EE certs the serial number. Since serial
 numbers are only required to be unique for respective certificate authorities,
-blacklisting serial numbers may accidentally blacklist other *innocent* ones, especially
+blacklisting serial numbers may accidentally blacklist other *benign* ones, especially
 when the serial number is small.
 
 The certificate blacklisting in Android is probably updated via the Play services,
@@ -92,7 +96,7 @@ the blacklists consists of only two respectively:
                         783333c9687df63377efceddd82efa9101913e8e
         Serial Number: 827,864 [These are hex values]
 
-Installing this tool may prevent you from getting an updated blacklist,
+Using this tool may prevent you from getting an updated blacklist,
 should a next Diginotar occurs.
 
 For more detailed description on certificate blacklisting on Android, see
