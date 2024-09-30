@@ -134,8 +134,8 @@ mozilla/TWCA_Global_Root_CA.crt
 mozilla/TWCA_Root_Certification_Authority.crt
 mozilla/TeliaSonera_Root_CA_v1.crt
 mozilla/Telia_Root_CA_v2.crt
-mozilla/TrustAsia_Global_Root_CA_G3.crt
-mozilla/TrustAsia_Global_Root_CA_G4.crt
+!mozilla/TrustAsia_Global_Root_CA_G3.crt
+!mozilla/TrustAsia_Global_Root_CA_G4.crt
 mozilla/Trustwave_Global_Certification_Authority.crt
 mozilla/Trustwave_Global_ECC_P256_Certification_Authority.crt
 mozilla/Trustwave_Global_ECC_P384_Certification_Authority.crt
