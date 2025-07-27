@@ -12,20 +12,20 @@ Now it is a pre-release version (just revival)
 
 ### Mention
 
-**The project is _deprecated_ and under reconstruction. Please wait for more updates**
+**The project is _deprecated_ ~~and under reconstruction. Please wait for more updates~~**
 
-##### TODO
-* [x] Modify some ominous terms in the original repository to benign ones
-* [x] Remove extra documentations (Only English version will be maintained in the future)
-* [ ] Re-verify the compatibility and operability of all scripts on various systems
-* [ ] Fix some obsolete dependencies and syntax errors in some scripts
-* [ ] Modify some obsolete certs in the latest default NSS, Android, Linux and macOS certs list
-* [ ] Add some suspicious/malicious CA or EE certificates discovered after 2019-September
-* [ ] Remove support for Windows XP/2003 and earlier versions
-* [ ] Archive CodeSigning and Orgnization certificates and their revoke functions (for Windows only)
-* [ ] Move some Orgnization certificaties to Online certificaties (for Windows only)
-* [ ] Support revoking certifications in Firefox on macOS (It is impossible to implement in the short term)
-* [ ] *etc.*
+~~##### TODO~~
+~~* [x] Modify some ominous terms in the original repository to benign ones~~
+~~* [x] Remove extra documentations (Only English version will be maintained in the future)~~
+~~* [ ] Re-verify the compatibility and operability of all scripts on various systems~~
+~~* [ ] Fix some obsolete dependencies and syntax errors in some scripts~~
+~~* [ ] Modify some obsolete certs in the latest default NSS, Android, Linux and macOS certs list~~
+~~* [ ] Add some suspicious/malicious CA or EE certificates discovered after 2019-September~~
+~~* [ ] Remove support for Windows XP/2003 and earlier versions~~
+~~* [ ] Archive CodeSigning and Orgnization certificates and their revoke functions (for Windows only)~~
+~~* [ ] Move some Orgnization certificaties to Online certificaties (for Windows only)~~
+~~* [ ] Support revoking certifications in Firefox on macOS (It is impossible to implement in the short term)~~
+~~* [ ] *etc.*~~
 
 
 ### Usage
